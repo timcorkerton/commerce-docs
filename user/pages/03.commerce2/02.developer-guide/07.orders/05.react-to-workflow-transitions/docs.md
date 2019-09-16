@@ -189,6 +189,7 @@ Here is an example that you can modify according to your requirements.
 
         // Send the email.
         $this->mailManager->mail('commerce_order', 'receipt', $to, $langcode, $params);
+        // commerce_order_mail hook seems to no longer exist - How do we now send emails?
       }
 
     }
